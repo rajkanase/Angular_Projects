@@ -4,11 +4,13 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
   selector: 'app-compo-one',
   template: `
       <br/>
+      <div class="container">
       <div class=row>
-      <div class=col-md-12>
+      <div class=col-md-4>
         <input type="button" class="btn btn-primary" value="first button" (click)="onClick('a.jpg')"><br/><br/>
         <input type="button" class="btn btn-primary" value="second button" (click)="onClick('b.jpg')"><br/><br/>
         <input type="button" class="btn btn-primary" value="third button" (click)="onClick('c.jpg')">
+      </div>
       </div>
       </div>
   `,
