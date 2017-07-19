@@ -4,15 +4,19 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
   selector: 'app-compo-one',
   template: `
       <br/>
-      <div class="container">
-      <div class=row>
-      <div class=col-md-4>
+      
+      
         <input type="button" class="btn btn-primary" value="first button" (click)="onClick('a.jpg')"><br/><br/>
         <input type="button" class="btn btn-primary" value="second button" (click)="onClick('b.jpg')"><br/><br/>
         <input type="button" class="btn btn-primary" value="third button" (click)="onClick('c.jpg')">
-      </div>
-      </div>
-      </div>
+        <ul class="list-group">
+        <li class="list-group-item" (click)="onClick('a.jpg')"><a>Watch</a></li>
+        <li class="list-group-item" (click)="onClick('b.jpg')">Cars</li>
+        <li class="list-group-item" (click)="onClick('c.jpg')">Bikes</li>
+        
+        </ul>
+    
+      
   `,
   styles: []
 })

@@ -1,4 +1,10 @@
-<div>
-  <app-compo-one (imgEv)="imgVal=$event">  </app-compo-one>
-  <app-compo-two [imgNm]="imgVal"></app-compo-two>
-</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <app-compo-one (imgEv)="imgVal=$event">  </app-compo-one>
+      </div>
+  <div class="col-lg-10">
+    <app-compo-two [imgNm]="imgVal"></app-compo-two>
+    </div>
+      </div>
+        </div>
