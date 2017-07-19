@@ -9,7 +9,7 @@ import { Component, OnInit, Input } from '@angular/core';
     <div class=row>
     <div class=col-sm-12>
    
-    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="40%"/>
+    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="50%"/>
     </div>
     </div>
     </div>
@@ -27,29 +27,3 @@ imgNm:string;
   }
 
 }
-
-// import { by } from 'protractor';
-// import { Component, OnInit, Input } from '@angular/core';
-
-// @Component({
-//   selector: 'app-hello',
-//   template: `
-//     <div class="row">
-//       <div class="col-md-12">
-//       <img [src]="'../assets/'+imgNm" alt="../assets/boy.svg"/>
-//       </div>
-//     </div>
-//   `,
-//   styles: []
-// })
-// export class HelloComponent implements OnInit {
-
-//   @Input()
-//   imgNm: string;
-
-//   constructor() { }
-
-//   ngOnInit() {
-//   }
-// }
-
