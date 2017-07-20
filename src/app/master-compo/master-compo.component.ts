@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MasterCompoComponent implements OnInit {
 
-  imgVal : string;
+  imgVal : any;
 
   constructor() { }
 

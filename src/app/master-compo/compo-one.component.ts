@@ -4,15 +4,12 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
   selector: 'app-compo-one',
   template: `
       
-      
-      
-        <!--<input type="button" class="btn btn-primary" value="first button" (click)="onClick('a.jpg')"><br/><br/>
-        <input type="button" class="btn btn-primary" value="second button" (click)="onClick('b.jpg')"><br/><br/>
-        <input type="button" class="btn btn-primary" value="third button" (click)="onClick('c.jpg')">-->
+    
         <ul class="list-group">
-        <li class="list-group-item" (click)="onClick('a.jpg')"><a>Watch</a></li>
-        <li class="list-group-item" (click)="onClick('b.jpg')">Cars</li>
-        <li class="list-group-item" (click)="onClick('c.jpg')">Bikes</li>
+        <li class="list-group-item" (click)="onClick()"><a>Watch</a></li>
+        <li class="list-group-item" (click)="onClick()"><a>Cars</a></li>
+        <li class="list-group-item" (click)="onClick()"><a>Bikes<></li>
+        
         
         </ul>
     
@@ -23,7 +20,7 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 export class CompoOneComponent implements OnInit {
 
   @Output()
-  imgEv:EventEmitter<string>
+  imgEv:EventEmitter<any>
 
   constructor() { 
     this.imgEv=new EventEmitter();
@@ -32,8 +29,13 @@ export class CompoOneComponent implements OnInit {
   ngOnInit() {
   }
 
-  onClick(imgNm:string){
-    this.imgEv.emit(imgNm);
+  onClick(){
+    this.imgEv.emit({
+      imgs :[
+        'a.jpg','b.jpg','c.jpg'
+      ]
+
+    });
   }
 
 }

@@ -8,77 +8,25 @@ import { Component, OnInit, Input } from '@angular/core';
   
    <div class="row">
    <div class="col-md-3">
-    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
-    </div>
+    <img [src]="'../assets/'+imgNm.imgs[0]" alt="../assets/a.jpg" width="200px"/>
+    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <div class="col-md-3">
-    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200"/>
-    </div>
+    <img [src]="'../assets/'+imgNm.imgs[1]" alt="../assets/a.jpg" width="200"/>
+    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <div class="col-md-3">
-    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
-    </div>
+    <img [src]="'../assets/'+imgNm.imgs[2]" alt="../assets/a.jpg" width="200px"/>
+    </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <div class="col-md-3">
-    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
-    </div>
-    
-    </div>
-    <br/><br/>
-    <div class="row">
-   <div class="col-md-3">
-    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
-    </div>
-    <div class="col-md-3">
-    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
-    </div>
-    <div class="col-md-3">
-    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
-    </div>
-    <div class="col-md-3">
-    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
-    </div>
-    
+    <img [src]="'../assets/'+imgNm.imgs[3]" alt="../assets/a.jpg" width="200px"/>
     </div>
 
-    <br/><br/>
-    <div class="row">
-   <div class="col-md-3">
-    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
-    </div>
-    <div class="col-md-3">
-    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
-    </div>
-    <div class="col-md-3">
-    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
-    </div>
-    <div class="col-md-3">
-    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
-    </div>
-    
-    </div>
-
-    <br/><br/>
-    <div class="row">
-   <div class="col-md-3">
-    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
-    </div>
-    <div class="col-md-3">
-    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
-    </div>
-    <div class="col-md-3">
-    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
-    </div>
-    <div class="col-md-3">
-    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
-    </div>
-    
-    </div>
-    
   `,
   styles: []
 })
 export class CompoTwoComponent implements OnInit {
 
 @Input()
-imgNm:string;
+imgNm:any;
 
   constructor() { }
 
