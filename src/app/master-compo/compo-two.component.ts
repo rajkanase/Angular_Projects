@@ -37,6 +37,40 @@ import { Component, OnInit, Input } from '@angular/core';
     </div>
     
     </div>
+
+    <br/><br/>
+    <div class="row">
+   <div class="col-md-3">
+    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
+    </div>
+    <div class="col-md-3">
+    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
+    </div>
+    <div class="col-md-3">
+    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
+    </div>
+    <div class="col-md-3">
+    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
+    </div>
+    
+    </div>
+
+    <br/><br/>
+    <div class="row">
+   <div class="col-md-3">
+    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
+    </div>
+    <div class="col-md-3">
+    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
+    </div>
+    <div class="col-md-3">
+    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
+    </div>
+    <div class="col-md-3">
+    <img [src]="'../assets/'+imgNm" alt="../assets/a.jpg" width="200px"/>
+    </div>
+    
+    </div>
     
   `,
   styles: []
