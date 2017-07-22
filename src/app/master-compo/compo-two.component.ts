@@ -20,7 +20,7 @@ import { Component, OnInit, Input } from '@angular/core';
     <img [src]="'../assets/'+imgNm.imgs[3]" alt="../assets/a.jpg" width="200px"/>
 
     </div>
-    </div>
+    </div><br/><br/>
 
     <div class="row">
    <div class="col-md-3">
@@ -36,7 +36,7 @@ import { Component, OnInit, Input } from '@angular/core';
     <img [src]="'../assets/'+imgNm.imgs[7]" alt="../assets/a.jpg" width="200px"/>
 
     </div>
-    </div>
+    </div><br/><br/>
 
     <div class="row">
    <div class="col-md-3">
@@ -52,7 +52,7 @@ import { Component, OnInit, Input } from '@angular/core';
     <img [src]="'../assets/'+imgNm.imgs[11]" alt="../assets/a.jpg" width="200px"/>
 
     </div>
-    </div>
+    </div><br/><br/>
 
     <div class="row">
    <div class="col-md-3">
@@ -71,7 +71,13 @@ import { Component, OnInit, Input } from '@angular/core';
     </div>
 
   `,
-  styles: []
+  styles: [
+    `
+    img{
+      border : 2px solid black;
+    }
+    `
+  ]
 })
 export class CompoTwoComponent implements OnInit {
 
