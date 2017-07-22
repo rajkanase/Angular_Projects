@@ -5,7 +5,7 @@ import { Component, OnInit, Input } from '@angular/core';
   selector: 'app-compo-two',
   template: `
 
-  
+  <br><br>
    <div class="row">
    <div class="col-md-3">
     <img [src]="'../assets/'+imgNm.imgs[0]" alt="../assets/a.jpg" width="200px"/>

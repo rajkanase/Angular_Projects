@@ -4,7 +4,7 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
   selector: 'app-compo-one',
   template: `
       
-    
+        <br/>
         <ul class="list-group">
         <li class="list-group-item" (click)="onElectronics()"><a>Electronics</a></li>
         <li class="list-group-item" (click)="onCars()"><a>Cars</a></li>
@@ -23,7 +23,12 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
     
       
   `,
-  styles: []
+  styles: [
+    `
+    li { cursor: pointer; cursor: hand; }
+
+    `
+  ]
 })
 export class CompoOneComponent implements OnInit {
 
