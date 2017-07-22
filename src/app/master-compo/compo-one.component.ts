@@ -67,7 +67,7 @@ export class CompoOneComponent implements OnInit {
   onWatches(){
     this.imgEv.emit({
       imgs :[
-        'watches/w1.jpg','watches/w2.jpg','watches/w3.jpg','watches/w4.jpg','watches/w5.jpg','watches/w6.jpg','watches/w7.jpg','watches/w8.jpg','watches/w9.jpg','watches/w10.jpg','watches/w11.jpg','watches/w12.jpg','watches/w13.jpg','watches/w14.jpg','watches/w15.jpg'
+        'watches/w1.jpg','watches/w2.jpg','watches/w3.jpg','watches/w4.jpg','watches/w8.jpg','watches/w6.jpg','watches/w7.jpg','watches/w8.jpg','watches/w9.jpg','watches/w10.jpg','watches/w11.jpg','watches/w12.jpg','watches/w13.jpg','watches/w14.jpg','watches/w15.jpg'
       ]
 
     });
