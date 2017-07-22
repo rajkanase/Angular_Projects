@@ -6,6 +6,7 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
       
         <br/>
         <ul class="list-group">
+        <li class="list-group-item active">Items</li>
         <li class="list-group-item" (click)="onElectronics()"><a>Electronics</a></li>
         <li class="list-group-item" (click)="onCars()"><a>Cars</a></li>
         <li class="list-group-item" (click)="onBikes()"><a>Bikes</a></li>
