@@ -129,7 +129,6 @@ export class CompoOneComponent implements OnInit {
       imgs :[
         'ships/s1.jpg','ships/s2.jpg','ships/s3.jpg','ships/s4.jpg','ships/s5.jpg','ships/s6.jpg','ships/s7.jpg','ships/s8.jpg','ships/s9.jpg','ships/s10.jpg','ships/s11.jpg','ships/s12.jpg','ships/s13.jpg','ships/s14.jpg','ships/s15.jpg'
       ]
-
     });
   }
 
